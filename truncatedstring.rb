@@ -19,3 +19,5 @@ str1 = "hello world"
 str2 = "helloworld"
 
 truncated_string(str1, 7)
+
+#THIS NEEDS TO BE FIXED, DOESNT ACCOUNT FOR ALL TEST CASES AND DOESNT WORK FOR BASE CASE YET
