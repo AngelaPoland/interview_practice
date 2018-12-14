@@ -38,7 +38,7 @@ end
 # 2- If we have a right child, but that right child node doesn't have any children, then the right child must be the largest element and our current node must be the second largest element!
 # 3- Else, we have a right subtree with more than one element, so the largest and second largest are somewhere in that subtree. So we step right.
 
-  def find_largest(root_node)
+def find_largest(root_node)
   current = root_node
   while current
     return current.value if !current.right
